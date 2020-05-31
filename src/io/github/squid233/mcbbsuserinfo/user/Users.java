@@ -6,28 +6,27 @@ package io.github.squid233.mcbbsuserinfo.user;
 @SuppressWarnings("NonAsciiCharacters")
 public final class Users {
 
-    public static final User ToNick;
-    public static final User fiona;
-    public static final User dyxxzgc;
-    public static final User hhyx;
-    public static final User 囧帝;
-    public static final User kklkit;
-    public static final User 一周茶饭;
-    public static final User 一周一个;
-    public static final User qaz17899;
-    public static final User 唯恋丶枫叶乀;
+    public static final User ToNick = new ToNick();
+    public static final User fiona = new fiona();
+    public static final User dyxxzgc = new dyxxzgc();
+    public static final User hhyx = new hhyx();
+    public static final User 囧帝 = new 囧帝();
+    public static final User kklkit = new kklkit();
+    public static final User 一周茶饭 = new 一周茶饭();
+    public static final User 一周一个 = new 一周一个();
+    public static final User qaz17899 = new qaz17899();
+    public static final User 唯恋丶枫叶乀 = new 唯恋丶枫叶乀();
+    public static final User Miku_Fans = new Miku_Fans();
+    public static final User lhcz276045268 = new lhcz276045268();
+    public static final User 快乐的蓝精灵 = new 快乐的蓝精灵();
 
-    static {
-        ToNick = new User(1, "ToNick", null, "Lv.8 考古家", 3803, 508, 1649, 17, 1, 0, 3, 0, 704);
-        fiona = new User(2, "fiona", null, "Lv.5 农夫", 464, 51, 1517, 10, 0, 0, 0, 0, 124);
-        dyxxzgc = new User(3, "dyxxzgc", null, "Lv-? 禁止发言", 1062, 175, -289, 11, 0, 0, -1, 0, 143);
-        hhyx = new User(4, "hhyx", null, "Lv.8 考古家", 3405, 342, 1048, 38, 3, 0, 3, 0, 853);
-        囧帝 = new User(5, "囧帝", null, "Lv.7 猎手", 1332, 147, 1302, 10, 0, 0, 0, 0, 232);
-        kklkit = new User(6, "kklkit", null, "Lv-? 禁止发言", 259, 55, 1373, 10, 0, 0, 0, 0, 34);
-        一周茶饭 = new User(7, "一周茶饭", null, "Lv.7 猎手", 1765, 180, 115, 40, 3, 0, 0, 0, 399);
-        一周一个 = new User(8, "一周一个", null, "Lv.7 猎手", 1588, 173, 1566, 10, 1, 1, 0, 0, 326);
-        qaz17899 = new User(9, "qaz17899", null,"Lv-? 禁止发言", 290, 36, 1354, 10, 0, 0, 0, 0, 74);
-        唯恋丶枫叶乀 = new User(10, "唯恋丶枫叶乀", null, "Lv.5 农夫", 473, 69, 1387, 13, 0, 0, 0, 0, 100);
+    public static final User 素履信游 = new 素履信游();
 
-    }
+    public static final User 蜗牛与蚂蚁 = new 蜗牛与蚂蚁();
+    public static final User wzx1996 = new wzx1996();
+    public static final User 啊飞flying = new 啊飞flying();
+    public static final User outsidero = new outsidero();
+
+    //public static final User 张金 = new 张金();
+
 }

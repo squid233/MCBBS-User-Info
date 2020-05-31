@@ -48,6 +48,35 @@ public class PrintUser {
             case "唯恋丶枫叶乀":
                 print(唯恋丶枫叶乀);
                 break;
+            case "Miku_Fans":
+                print(Miku_Fans);
+                break;
+            case "lhcz276045268":
+                print(lhcz276045268);
+                break;
+            case "快乐的蓝精灵":
+                print(快乐的蓝精灵);
+                break;
+            // 14号用户不存在
+            case "素履信游":
+                print(素履信游);
+                break;
+            // 16号用户不存在
+            case "蜗牛与蚂蚁":
+                print(蜗牛与蚂蚁);
+                break;
+            case "wzx1996":
+                print(wzx1996);
+                break;
+            case "啊飞flying":
+                print(啊飞flying);
+                break;
+            case "outsidero":
+                print(outsidero);
+                break;
+            /*case "张金":
+                print(张金);
+                break;*/
             default:
                 System.out.println("未找到用户，请检查拼写后重试！");
                 System.out.println("要结束进程吗？(y/n)：");

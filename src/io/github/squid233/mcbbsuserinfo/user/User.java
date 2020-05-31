@@ -2,6 +2,7 @@ package io.github.squid233.mcbbsuserinfo.user;
 
 import io.github.squid233.mcbbsuserinfo.Main;
 import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 /**
  * 用户类的基础。
@@ -24,8 +25,8 @@ public class User {
 
     /**
      * <p>请注意，如果用户没有别名则填写null或""</p>
+     * <p><s>需要重写{@link #toString()}方法以获得用户名</s>现在不需要了</p>
      * @param uid 用户的UID
-     * @param userName 用户名
      * @param otherName 别名
      * @param group 用户组
      * @param points 积分
@@ -40,9 +41,8 @@ public class User {
      */
     public User(
             int uid,
-            String userName,
-            String otherName,
-            String group,
+            @Nullable String otherName,
+            @NotNull UserGroup group,
             int points,
             int popularity,
             int goldenNuggets,
@@ -54,9 +54,9 @@ public class User {
             int diamonds
     ) {
         this.uid = uid;
-        this.userName = userName;
+        this.userName = this.toString();
         this.otherName = otherName;
-        this.group = group;
+        this.group = group.toString();
         this.points = points;
         this.popularity = popularity;
         this.goldenNuggets = goldenNuggets;
@@ -88,6 +88,11 @@ public class User {
         user.print();
         System.out.println("要结束进程吗？(y/n)：");
         Main.exit = PrintUser.sc.nextLine();
+    }
+
+    @Override
+    public String toString() {
+        return getClass().getSimpleName();
     }
 
 }
