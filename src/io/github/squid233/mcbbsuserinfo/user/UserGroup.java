@@ -1,6 +1,18 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
 public enum UserGroup {
+    LV2 {
+        @Override
+        public String toString() {
+            return "Lv.2 采石匠";
+        }
+    },
+    LV3 {
+        @Override
+        public String toString() {
+            return "Lv.3 挖沙工";
+        }
+    },
     LV5 {
         @Override
         public String toString() {
@@ -23,6 +35,18 @@ public enum UserGroup {
         @Override
         public String toString() {
             return "Lv.8 考古家";
+        }
+    },
+    LV9 {
+        @Override
+        public String toString() {
+            return "Lv.9 牧场主";
+        }
+    },
+    LV10 {
+        @Override
+        public String toString() {
+            return "Lv.10 附魔师";
         }
     },
     LVNOSPEAKING {

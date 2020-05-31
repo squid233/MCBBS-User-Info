@@ -68,6 +68,35 @@ public class User {
         this.diamonds = diamonds;
     }
 
+    public User(
+            int uid,
+            @Nullable String otherName,
+            @NotNull String group,
+            int points,
+            int popularity,
+            int goldenNuggets,
+            int goldenIngots,
+            int emeralds,
+            int netherStars,
+            int contributes,
+            int hearts,
+            int diamonds
+    ) {
+        this.uid = uid;
+        this.userName = this.toString();
+        this.otherName = otherName;
+        this.group = group;
+        this.points = points;
+        this.popularity = popularity;
+        this.goldenNuggets = goldenNuggets;
+        this.goldenIngots = goldenIngots;
+        this.emeralds = emeralds;
+        this.netherStars = netherStars;
+        this.contributes = contributes;
+        this.hearts = hearts;
+        this.diamonds = diamonds;
+    }
+
     private void print() {
         System.out.println("UID：" + this.uid);
         System.out.println("用户名：" + this.userName);

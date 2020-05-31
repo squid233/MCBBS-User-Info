@@ -74,14 +74,46 @@ public class PrintUser {
             case "outsidero":
                 print(outsidero);
                 break;
-            /*case "张金":
+            case "xqx145236":
+                print(xqx145236);
+                break;
+            case "Mr_Snake":
+                print(Mr_Snake);
+                break;
+            case "lzq1993":
+                print(lzq1993);
+                break;
+            case "张金":
                 print(张金);
-                break;*/
+                break;
+            case "花若风":
+                print(花若风);
+                break;
+            case "NC_jianchuan":
+                print(NC_jianchuan);
+                break;
+            case "wjwrh":
+                print(wjwrh);
+                break;
+            case "q2392736206":
+                print(q2392736206);
+                break;
+            case "mcboxv":
+                print(mcboxv);
+                break;
+            case "EmptyLava":
+                print(EmptyLava);
+                break;
+            case "もぺもぺ":
+                print(もぺもぺ);
+                break;
+            case "Xi_Lixjdj":
+                print(Xi_Lixjdj);
+                break;
             default:
                 System.out.println("未找到用户，请检查拼写后重试！");
                 System.out.println("要结束进程吗？(y/n)：");
                 Main.exit = PrintUser.sc.nextLine();
-
         }
 
     }
