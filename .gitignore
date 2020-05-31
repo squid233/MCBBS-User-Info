@@ -4,3 +4,6 @@ out/
 *.iml
 *.ipr
 *.iws
+
+#java
+src/META-INF/
