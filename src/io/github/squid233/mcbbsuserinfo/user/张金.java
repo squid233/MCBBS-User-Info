@@ -1,5 +1,6 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
+@SuppressWarnings("NonAsciiCharacters")
 public class 张金 extends User {
 
     public 张金() {

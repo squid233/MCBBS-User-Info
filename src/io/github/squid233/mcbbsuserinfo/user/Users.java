@@ -6,6 +6,7 @@ package io.github.squid233.mcbbsuserinfo.user;
 @SuppressWarnings("NonAsciiCharacters")
 public final class Users {
 
+    public static final User squid233 = new squid233();
     public static final User ToNick = new ToNick();
     public static final User fiona = new fiona();
     public static final User dyxxzgc = new dyxxzgc();
@@ -36,5 +37,6 @@ public final class Users {
     public static final User EmptyLava = new EmptyLava();
     public static final User もぺもぺ = new もぺもぺ();
     public static final User Xi_Lixjdj = new Xi_Lixjdj();
+    public static final User baka4n = new baka4n();
 
 }

@@ -1,5 +1,6 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
+@SuppressWarnings("NonAsciiCharacters")
 public class 蜗牛与蚂蚁 extends User {
 
     public 蜗牛与蚂蚁() {

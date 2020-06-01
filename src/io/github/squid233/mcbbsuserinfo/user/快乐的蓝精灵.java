@@ -1,5 +1,6 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
+@SuppressWarnings("NonAsciiCharacters")
 public class 快乐的蓝精灵 extends User {
 
     public 快乐的蓝精灵() {

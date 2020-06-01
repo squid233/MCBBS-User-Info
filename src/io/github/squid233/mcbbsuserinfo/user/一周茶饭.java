@@ -1,5 +1,6 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
+@SuppressWarnings("NonAsciiCharacters")
 public class 一周茶饭 extends User {
 
     public 一周茶饭() {

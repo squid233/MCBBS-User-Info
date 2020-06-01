@@ -1,5 +1,6 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
+@SuppressWarnings("NonAsciiCharacters")
 public class 啊飞flying extends User {
 
     public 啊飞flying() {

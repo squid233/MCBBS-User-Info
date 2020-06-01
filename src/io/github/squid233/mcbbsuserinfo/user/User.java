@@ -1,6 +1,5 @@
 package io.github.squid233.mcbbsuserinfo.user;
 
-import io.github.squid233.mcbbsuserinfo.Main;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -97,31 +96,61 @@ public class User {
         this.diamonds = diamonds;
     }
 
-    private void print() {
-        System.out.println("UID：" + this.uid);
-        System.out.println("用户名：" + this.userName);
-        if (this.otherName != null && !this.otherName.equals("")) System.out.println("别名：" + this.otherName);
-        System.out.println("用户组：" + this.group);
-        System.out.println("积分：" + this.points);
-        System.out.println("人气：" + this.popularity + " 点");
-        System.out.println("金粒：" + this.goldenNuggets + " 粒");
-        System.out.println("金锭：" + this.goldenIngots + " 块");
-        System.out.println("绿宝石：" + this.emeralds + " 颗");
-        System.out.println("下界之星：" + this.netherStars + " 枚");
-        System.out.println("贡献：" + this.contributes + " 份");
-        System.out.println("爱心：" + this.hearts + " 心");
-        System.out.println("钻石：" + this.diamonds + " 颗");
-    }
-
-    public static void print(@NotNull User user) {
-        user.print();
-        System.out.println("要结束进程吗？(y/n)：");
-        Main.exit = PrintUser.sc.nextLine();
-    }
-
     @Override
     public String toString() {
         return getClass().getSimpleName();
+    }
+
+    public int getUid() {
+        return this.uid;
+    }
+
+    public String getUserName() {
+        return this.userName;
+    }
+
+    public String getOtherName() {
+        return this.otherName;
+    }
+
+    public String getGroup() {
+        return this.group;
+    }
+
+    public int getPoints() {
+        return this.points;
+    }
+
+    public int getPopularity() {
+        return this.popularity;
+    }
+
+    public int getGoldenNuggets() {
+        return this.goldenNuggets;
+    }
+
+    public int getGoldenIngots() {
+        return this.goldenIngots;
+    }
+
+    public int getEmeralds() {
+        return this.emeralds;
+    }
+
+    public int getNetherStars() {
+        return this.netherStars;
+    }
+
+    public int getContributes() {
+        return this.contributes;
+    }
+
+    public int getHearts() {
+        return this.hearts;
+    }
+
+    public int getDiamonds() {
+        return this.diamonds;
     }
 
 }
