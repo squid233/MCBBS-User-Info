@@ -11,3 +11,6 @@
         pause
 
 3. 双击bat，开始运行！
+
+# 画廊
+[test](image/test.png)
